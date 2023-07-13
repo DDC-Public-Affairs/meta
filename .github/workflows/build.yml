@@ -18,10 +18,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@ddc-public-affairs'
       - run: | 
-          echo 'printing .npmrc file' 
-          cat /home/runner/work/_temp/.npmrc
           npm config set always-auth true
-          cat /home/runner/work/_temp/.npmrc
       - run: npm ci
       - run: npm publish
         env:
