@@ -16,7 +16,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
-          scope: '@ddc-public-affairs'
+          scope: '@DDC-Public-Affairs'
       - run: | 
           npm config set always-auth true
       - run: npm ci
