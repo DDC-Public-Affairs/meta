@@ -57,7 +57,7 @@
   "homepage": "https://github.com/ddc-public-affairs/meta#readme",
   "dependencies": {
     "chalk": "3.0.0",
-    "commander": "ddc-public-affairs/commander.js",
+    "commander": "mateodelnorte/commander.js",
     "debug": "4.3.2",
     "meta-git": "1.1.7",
     "meta-init": "1.2.5",
