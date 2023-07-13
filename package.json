@@ -1,5 +1,5 @@
 {
-  "name": "meta",
+  "name": "@ddc-public-affairs/meta",
   "version": "2.2.26",
   "description": "tool for turning many repos into a meta repo. why choose many repos or a monolithic repo, when you can have both with a meta repo?",
   "bin": {
@@ -26,7 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mateodelnorte/meta.git"
+    "url": "https://github.com/ddc-public-affairs/meta.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "git",
@@ -43,16 +46,18 @@
   "contributors": [
     "hi@iammattwalters.com",
     "pat@patscott.io",
-    "Alec Larson"
+    "Alec Larson",
+    "acope@ddcpublicaffairs.com",
+    "Aaron Cope"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mateodelnorte/meta/issues"
+    "url": "https://github.com/ddc-public-affairs/meta/issues"
   },
-  "homepage": "https://github.com/mateodelnorte/meta#readme",
+  "homepage": "https://github.com/ddc-public-affairs/meta#readme",
   "dependencies": {
     "chalk": "3.0.0",
-    "commander": "mateodelnorte/commander.js",
+    "commander": "ddc-public-affairs/commander.js",
     "debug": "4.3.2",
     "meta-git": "1.1.7",
     "meta-init": "1.2.5",
